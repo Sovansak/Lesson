@@ -1,23 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Digitising Sound</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitised Sound - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #004080;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Digitising Sound</a></li>
-      <li><a href="portable-storage.html">Portable Storage</a></li>
-      <li><a href="audio-size.html">Audio Size</a></li>
-      <li><a href="about-us.html">About Us</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>Digitising Sound</h1>
-    <p>Digitising sound means converting an analog sound wave into a digital representation that can be stored and processed by computers.</p>
-  </main>
+    <header>
+        <h1>Digitised Sound</h1>
+    </header>
+
+    <section>
+        <h2>What is Digitised Sound?</h2>
+        <p>
+            Sound such as music or speech is originally recorded in analogue form (e.g., vinyl, cassette tapes).
+            To store it on a computer, it must be converted into digital format using binary.
+        </p>
+        <p>Examples of digital audio:</p>
+        <ul>
+            <li>MP3 and WAV files</li>
+            <li>DAB (Digital Audio Broadcasting)</li>
+            <li>Podcasts and audio streaming</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How Sound is Digitised</h2>
+        <p>
+            Digitisation uses <strong>sampling</strong>: measuring the sound at regular time intervals.
+            The smaller the interval, the more accurate the digital recording.
+        </p>
+        <p><strong>Sample Rate:</strong> Number of samples per second (standard is 44,100 Hz).</p>
+        <p><strong>Bit Depth:</strong> Number of bits used per sample (standard is 16 bits).</p>
+    </section>
+
+    <section>
+        <h2>Visualising Sound</h2>
+        <p>
+            A waveform shows sound over time:
+        </p>
+        <ul>
+            <li><strong>X-axis:</strong> Time (frequency)</li>
+            <li><strong>Y-axis:</strong> Amplitude (loudness)</li>
+        </ul>
+        <p>
+            - High amplitude = loud sound<br>
+            - Short gaps between waves = high pitch<br>
+            - Long gaps = low pitch
+        </p>
+    </section>
+
+    <section>
+        <h2>Mono vs Stereo</h2>
+        <p>
+            <strong>Mono:</strong> One audio channel<br>
+            <strong>Stereo:</strong> Two audio channels for better sound quality, but larger file size
+        </p>
+    </section>
 </body>
 </html>
-
